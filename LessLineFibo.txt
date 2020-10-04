@@ -1,6 +1,3 @@
 def fibo(n):
-     
-
-
-
     return (1 if n<=1 else fibo(n-1)+fibo(n-2))
+    #you can use LRU cache or dictionary !
